@@ -21,6 +21,11 @@ server.dat (optional)
 	<property name="file.ftb_server" value="${env.JOB_NAME}_FTB_Server.zip"/>
 
 	<target name="build">
+		<!-- Download some linked mods -->
+		<get src="https://calclavia.com/downloads/ICBM_Explosion.jar" dest="mods/ICBM_Explosion.jar"/>
+		<get src="https://calclavia.com/downloads/ICBM_Sentry.jar" dest="mods/ICBM_Sentry.jar"/>
+		<get src="https://calclavia.com/downloads/ICBM_Contraption.jar" dest="mods/ICBM_Contraption.jar"/>
+	
 		<!-- Pack Technic -->
 		<echo>Building Technic</echo>
 		
@@ -95,6 +100,5 @@ server.dat (optional)
 		<zip destfile="./${file.ftb_server}">
 			<fileset dir="temp_ftb_server" />
 		</zip>
-
 	</target>
 </project>
