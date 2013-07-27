@@ -34,6 +34,11 @@ server.dat (optional)
 			<fileset dir="../Modular Force Field System">
 				<include name="MFFS.jar"/>
 			</fileset>
+			<fileset dir="../Mekanism">
+				<include name="Mekanism.jar"/>
+				<include name="Mekanism_Generators.jar"/>
+				<include name="Mekanism_Tools.jar"/>
+			</fileset>
 		</copy>
 
 		<!-- Pack Technic -->
