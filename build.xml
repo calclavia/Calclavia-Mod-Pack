@@ -22,10 +22,14 @@ server.dat (optional)
 
 	<target name="build">
 		<!-- Download some linked mods -->
-		<get src="https://calclavia.com/downloads/ICBM_Explosion.jar" dest="mods/ICBM_Explosion.jar"/>
-		<get src="https://calclavia.com/downloads/ICBM_Sentry.jar" dest="mods/ICBM_Sentry.jar"/>
-		<get src="https://calclavia.com/downloads/ICBM_Contraption.jar" dest="mods/ICBM_Contraption.jar"/>
-	
+		<copy todir="mods">
+			<fileset dir="../ICBM">
+				<include name="ICBM_Explosion.jar"/>
+				<include name="ICBM_Contraption.jar"/>	
+				<include name="ICBM_Sentry.jar"/>
+			</fileset>
+		</copy>
+
 		<!-- Pack Technic -->
 		<echo>Building Technic</echo>
 		
