@@ -28,6 +28,12 @@ server.dat (optional)
 				<include name="ICBM_Contraption.jar"/>	
 				<include name="ICBM_Sentry.jar"/>
 			</fileset>
+			<fileset dir="../Atomic Science">
+				<include name="Atomic_Science.jar"/>
+			</fileset>
+			<fileset dir="../Modular Force Field System">
+				<include name="MFFS.jar"/>
+			</fileset>
 		</copy>
 
 		<!-- Pack Technic -->
