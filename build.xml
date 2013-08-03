@@ -39,6 +39,9 @@ server.dat (optional)
 				<include name="Mekanism_Generators.jar"/>
 				<include name="Mekanism_Tools.jar"/>
 			</fileset>
+			<fileset dir="../Resonant Induction">
+				<include name="Resonant_Induction.jar"/>
+			</fileset>
 		</copy>
 
 		<!-- Pack Technic -->
