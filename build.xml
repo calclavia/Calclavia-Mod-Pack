@@ -23,7 +23,7 @@ server.dat (optional)
 	<target name="build">
 		<!-- Download some linked mods -->
 		<copy todir="mods">
-			<!--<fileset dir="../ICBM">
+			<<fileset dir="../ICBM">
 				<include name="ICBM_Explosion.jar"/>
 				<include name="ICBM_Contraption.jar"/>	
 				<include name="ICBM_Sentry.jar"/>
@@ -38,7 +38,7 @@ server.dat (optional)
 				<include name="Mekanism.jar"/>
 				<include name="Mekanism_Generators.jar"/>
 				<include name="Mekanism_Tools.jar"/>
-			</fileset>-->
+			</fileset>
 			<fileset dir="../Resonant Induction">
 				<include name="Resonant_Induction.jar"/>
 			</fileset>
