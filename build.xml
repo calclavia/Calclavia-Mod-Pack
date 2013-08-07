@@ -23,7 +23,7 @@ server.dat (optional)
 	<target name="build">
 		<!-- Download some linked mods -->
 		<copy todir="mods">
-			<<fileset dir="../ICBM">
+			<fileset dir="../ICBM">
 				<include name="ICBM_Explosion.jar"/>
 				<include name="ICBM_Contraption.jar"/>	
 				<include name="ICBM_Sentry.jar"/>
