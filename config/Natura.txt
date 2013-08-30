@@ -6,7 +6,7 @@
 
 block {
     I:"Amaranth Button"=3338
-    I:"Amaranth Fence Gate"=2482
+    I:"Amaranth Fence Gate"=3403
     I:"Amaranth Pressure Plate"=3311
     I:"Amaranth Stairs"=3298
     I:"Amaranth Trapdoor"=3324
@@ -14,7 +14,7 @@ block {
     I:"Bloodwood Block"=3263
     I:"Bloodwood Button"=3334
     I:"Bloodwood Door"=3268
-    I:"Bloodwood Fence Gate"=2479
+    I:"Bloodwood Fence Gate"=3400
     I:"Bloodwood Pressure Plate"=3308
     I:"Bloodwood Stairs"=3295
     I:"Bloodwood Trapdoor"=3321
@@ -24,7 +24,7 @@ block {
     I:"Crafting Table"=3283
     I:Crops=3260
     I:"Darkwood Button"=3341
-    I:"Darkwood Fence Gate"=2485
+    I:"Darkwood Fence Gate"=3406
     I:"Darkwood Leaves"=3272
     I:"Darkwood Log"=3271
     I:"Darkwood Pressure Plate"=3315
@@ -40,7 +40,7 @@ block {
     I:"Flora Leaves"=3259
     I:Flower=3281
     I:"Fusewood Button"=3342
-    I:"Fusewood Fence Gate"=2486
+    I:"Fusewood Fence Gate"=3407
     I:"Fusewood Pressure Plate"=3316
     I:"Fusewood Stairs"=3303
     I:"Fusewood Trapdoor"=3329
@@ -54,7 +54,7 @@ block {
     I:"Green Glowshroom"=3274
     I:"Hopseed Button"=3335
     I:"Hopseed Door"=3265
-    I:"Hopseed Fence Gate"=2480
+    I:"Hopseed Fence Gate"=3401
     I:"Hopseed Pressure Plate"=3309
     I:"Hopseed Stairs"=3296
     I:"Hopseed Trapdoor"=3322
@@ -90,20 +90,20 @@ block {
     I:"Sakura Trapdoor"=3318
     I:Sapling=3256
     I:"Silverbell Button"=3337
-    I:"Silverbell Fence Gate"=2481
+    I:"Silverbell Fence Gate"=3402
     I:"Silverbell Pressure Plate"=3312
     I:"Silverbell Stairs"=3299
     I:"Silverbell Trapdoor"=3325
     I:Thornvines=3282
     I:"Tigerwood Button"=3339
-    I:"Tigerwood Fence Gate"=2483
+    I:"Tigerwood Fence Gate"=3404
     I:"Tigerwood Pressure Plate"=3313
     I:"Tigerwood Stairs"=3300
     I:"Tigerwood Trapdoor"=3326
     I:"Topiary Grass Block"=3286
     I:"Topiary Grass Slab"=3287
     I:"Willow Button"=3340
-    I:"Willow Fence Gate"=2484
+    I:"Willow Fence Gate"=3405
     I:"Willow Log"=3280
     I:"Willow Pressure Plate"=3314
     I:"Willow Stairs"=3301
@@ -157,7 +157,7 @@ disabler {
     B:"Generate Thornvines"=true
     B:"Generate Tigerwood Trees"=true
     B:"Generate Willow Trees"=true
-    B:"Override Nether"=true
+    B:"Override Nether"=false
 }
 
 
