@@ -42,6 +42,9 @@ server.dat (optional)
 			<fileset dir="../Resonant Induction">
 				<include name="Resonant_Induction.jar"/>
 			</fileset>
+			<fileset dir="../Universal Electricity">
+				<include name="Universal_Electricity_Core.jar"/>
+			</fileset>
 		</copy>
 
 		<!-- Pack Technic -->
