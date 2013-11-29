@@ -38,9 +38,7 @@ server.dat (optional)
 				<include name="Mekanism.jar"/>
 				<include name="Mekanism_Generators.jar"/>
 				<include name="Mekanism_Tools.jar"/>
-			</fileset>
-			<fileset dir="../Resonant Induction">
-				<include name="Resonant_Induction.jar"/>
+				<include name="Mekanism_Induction.jar"/>
 			</fileset>
 			<fileset dir="../Universal Electricity">
 				<include name="Universal_Electricity_Core.jar"/>
