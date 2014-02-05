@@ -41,6 +41,9 @@ server.dat (optional)
 			<fileset dir="../Universal Electricity">
 				<include name="Universal-Electricity-*-Core.jar"/>
 			</fileset>
+			<fileset dir="../Calclavia Core">
+				<include name="Calclavia-Core-*.jar"/>
+			</fileset>
 		</copy>
 
 		<!-- Pack Technic -->
