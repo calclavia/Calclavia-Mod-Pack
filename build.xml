@@ -23,25 +23,23 @@ server.dat (optional)
 	<target name="build">
 		<!-- Download some linked mods -->
 		<copy todir="mods">
-			<fileset dir="../ICBM">
-				<include name="ICBM_Explosion.jar"/>
-				<include name="ICBM_Contraption.jar"/>	
-				<include name="ICBM_Sentry.jar"/>
+			<fileset dir="../ICBM/output">
+				<include name="ICBM-*.jar"/>
 			</fileset>
-			<fileset dir="../Atomic Science">
-				<include name="Atomic_Science.jar"/>
+			<fileset dir="../Atomic Science/output">
+				<include name="Atomi-Science-*.jar"/>
 			</fileset>
-			<fileset dir="../Modular Force Field System">
-				<include name="MFFS.jar"/>
+			<fileset dir="../Modular Force Field System/output">
+				<include name="Modular-Force-Field-System-*.jar"/>
 			</fileset>
-			<fileset dir="../Mekanism">
-				<include name="Mekanism.jar"/>
-				<include name="Mekanism_Generators.jar"/>
-				<include name="Mekanism_Tools.jar"/>
-				<include name="Mekanism_Induction.jar"/>
+			<fileset dir="../Resonant Induction/output">
+				<include name="Resonant-Induction-*.jar"/>
+			</fileset>
+			<fileset dir="../Simple Tools/output">
+				<include name="SimpleTools-*.jar"/>
 			</fileset>
 			<fileset dir="../Universal Electricity">
-				<include name="Universal_Electricity_Core.jar"/>
+				<include name="Universal-Electricity-*-Core.jar"/>
 			</fileset>
 		</copy>
 
