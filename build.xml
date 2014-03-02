@@ -38,11 +38,11 @@ server.dat (optional)
 			<fileset dir="../Simple Tools/output">
 				<include name="SimpleTools-*.jar"/>
 			</fileset>
-			<fileset dir="../Universal Electricity">
-				<include name="Universal-Electricity-*-Core.jar"/>
+			<fileset dir="../Universal Electricity/output">
+				<include name="Universal-Electricity-*-core.jar"/>
 			</fileset>
-			<fileset dir="../Calclavia Core">
-				<include name="Calclavia-Core-*.jar"/>
+			<fileset dir="../Calclavia Core/output">
+				<include name="Calclavia Core-*.jar"/>
 			</fileset>
 		</copy>
 
